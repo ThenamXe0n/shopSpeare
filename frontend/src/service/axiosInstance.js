@@ -1,10 +1,9 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://loacalhost:8080",
+  baseURL: "https://shopspeare.onrender.com", //live
+  // baseURL: "http://localhost:8080/", //live
   withCredentials: true,
 });
-
-
 
 export default axiosInstance;
