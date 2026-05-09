@@ -18,7 +18,7 @@ server.use(express.urlencoded({ extended: true }));
 server.use(cookieParser());
 server.use(
   cors({
-    origin: ["http://localhost:5173", "https://mindcoders.in"],
+    origin: ["http://localhost:5173", "https://shop-speare.vercel.app"],
     credentials: true,
   }),
 );
