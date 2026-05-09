@@ -15,9 +15,8 @@ import Notiflix from "notiflix";
 import ProductPage from "./pages/ProductPage";
 import { getAllproductAsync } from "./redux/productSlice";
 import { getUserCartItemAsync } from "./redux/cartSlice";
-// import { fetchUserCartItemsAsync } from "./redux/CartSlice";
 function App() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); // dispatcher function
 
   useEffect(() => {
     dispatch(verifyUserLoginAsync());
