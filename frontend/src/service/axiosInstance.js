@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_PUBLIC_API_URL,
+  baseURL: "http://loacalhost:8080",
   withCredentials: true,
 });
 
