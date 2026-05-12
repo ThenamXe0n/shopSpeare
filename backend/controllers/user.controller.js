@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const cookieOptions = {
   httpOnly: true,
   secure: process.env.NODE_ENV === "production",
-  sameSite: "Lax",
+  sameSite: "None",
   maxAge: 23 * 60 * 60 * 1000,
 };
 
